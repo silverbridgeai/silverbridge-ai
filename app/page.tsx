@@ -1,65 +1,163 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function SilverBridgeAIHomepage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+    <div className="min-h-screen bg-black text-white overflow-hidden">
+      {/* Background Effects */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(0,180,255,0.15),transparent_35%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:80px_80px]" />
+
+      {/* Navigation */}
+      <header className="relative z-20 border-b border-white/10 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+          {/* LEFT */}
+          <div className="flex items-center gap-3">
+            <Image
+              src="/Silverbridgelogo.png"
+              alt="SilverBridge AI"
+              width={188}
+              height={188}
+              className="rounded-xl hover:scale-105 transition-transform drop-shadow-lg"
+            />
+
+            <div>
+              <h1 className="text-2xl font-semibold tracking-wide">
+                SilverBridge AI
+              </h1>
+
+              <p className="text-xs text-white/50 tracking-[0.25em] uppercase mt-1">
+                Frontier Scientific Intelligence
+              </p>
+            </div>
+          </div>
+
+          {/* NAV */}
+          <nav className="hidden md:flex gap-8 text-sm text-white/70">
+            <a href="#domains" className="hover:text-white transition-colors">Domains</a>
+            <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
+            <a href="#philosophy" className="hover:text-white transition-colors">Philosophy</a>
+            <a href="#insights" className="hover:text-white transition-colors">Insights</a>
+
+            {/* NEW: Business */}
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="#business"
+              className="hover:text-cyan-300 text-white/70 transition-colors font-medium"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              Business
+            </a>
+
+            <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+          </nav>
+
+        </div>
+      </header>
+
+      {/* Hero */}
+      <section className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-28">
+        <div className="max-w-4xl">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 text-cyan-300 text-xs tracking-[0.2em] uppercase mb-8">
+            AI-Driven Interdisciplinary Innovation
+          </div>
+
+          <h2 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight">
+            Building Intelligence Across
+            <span className="block text-cyan-300">Science, Vision, and Industry</span>
+          </h2>
+
+          <p className="mt-10 text-lg md:text-xl text-white/70 leading-relaxed max-w-3xl">
+            SilverBridge AI develops advanced machine vision, deep learning,
+            and scientific intelligence technologies across industrial,
+            biomedical, materials, and autonomous systems domains.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Domains */}
+      <section id="domains" className="relative z-10 max-w-7xl mx-auto px-6 py-24">
+        <h3 className="text-4xl font-semibold mb-12">Core Domains</h3>
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+          {[
+            ["Machine Vision Intelligence","Industrial inspection, sensing, autonomous perception systems."],
+            ["AI for Scientific Discovery","Cross-domain learning for materials, biotech, chemistry."],
+            ["Autonomous Decision Systems","Edge AI systems for real-world adaptive environments."],
+            ["IP & Technology Licensing","Transferable AI architectures and commercial know-how."],
+          ].map(([t,d])=> (
+            <div key={t} className="p-6 rounded-2xl border border-white/10 bg-white/5">
+              <h4 className="text-xl mb-3">{t}</h4>
+              <p className="text-white/60">{d}</p>
+            </div>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* Business */}
+      <section id="business" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
+        <h3 className="text-4xl font-semibold mb-6">Business</h3>
+        <p className="text-white/70 leading-relaxed max-w-3xl">
+          UK-based AI company operating internationally, delivering scientific intelligence and machine learning systems across both domestic and global markets.
+
+          We support clients in the UK and internationally across research, industrial, and technology sectors, with applications spanning machine vision, biomedical systems, materials science, and advanced engineering.
+
+          Our delivery model is remote-first and collaboration-driven, enabling cross-border technology development and IP transfer.
+        </p>
+      </section>
+
+      {/* Philosophy */}
+      <section id="philosophy" className="relative z-10 max-w-4xl mx-auto px-6 py-24 text-center">
+        <h3 className="text-5xl font-semibold">
+          Intelligence should extend scientific capability — not replace it.
+        </h3>
+      </section>
+
+      {/* Insights */}
+      <section id="insights" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
+        <div className="mb-10">
+          <h3 className="text-4xl font-semibold">Research Perspectives</h3>
+          <p className="text-white/60 mt-3">
+            Essays and reflections on frontier AI, scientific intelligence, and interdisciplinary innovation.
+          </p>
+        </div>
+
+        <a
+          href="https://www.linkedin.com/pulse/ai-catalyst-cross-disciplinary-breakthroughs-reflections-s97ge/?trackingId=J%2Be9AafdSiOO3FswuQptLA%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-8 rounded-3xl border border-cyan-400/20 bg-white/5 hover:bg-white/10 transition cursor-pointer"
+        >
+          <div className="text-sm text-cyan-300 mb-2">
+            Featured Perspective
+          </div>
+
+          <div className="text-2xl font-semibold mb-3">
+            AI as a Catalyst for Cross-Disciplinary Breakthroughs
+          </div>
+
+          <p className="text-white/60 mb-6">
+            Exploring how artificial intelligence accelerates convergence across machine vision, biomedical systems, materials science, and industrial intelligence.
+          </p>
+
+          <div className="inline-flex items-center text-cyan-300 font-medium hover:text-white transition">
+            Read Perspective →
+          </div>
+        </a>
+      </section>
+
+      {/* Footer */}
+      <footer id="contact" className="relative z-10 border-t border-white/10 px-6 py-16">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+          <div>
+            <h4 className="text-2xl font-semibold">SilverBridge AI</h4>
+            <p className="text-white/60 mt-3 max-w-md">
+              AI-driven interdisciplinary science and technology innovation platform.
+            </p>
+          </div>
+          <div className="text-white/60">
+            <p>Cambridge · UK</p>
+            <p>info@silverbridgeai.co.uk</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
