@@ -115,14 +115,14 @@ export default function SilverBridgeAIHomepage() {
           <div className="border-l border-cyan-400/40 pl-6">
             <h4 className="text-white text-lg mb-2">Founding & Leadership</h4>
             <p>
-              The business is operated in the United Kingdom by Dr. Xiaopeng Wang as a sole trader, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence and deep technology systems.
+              The business is operated in the Cambridge UK by Dr. Xiaopeng Wang (Leo)as a sole trader, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence and deep technology systems.
             </p>
           </div>
 
           <div className="border-l border-white/10 pl-6">
             <h4 className="text-white text-lg mb-2">Technical Track Record</h4>
             <p>
-              He previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, with strategic investment participation from Intel, IBM, and Lenovo.
+              Leo previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, with strategic investment participation from Intel, IBM, and Lenovo.
             </p>
             <p className="mt-3">
               His experience spans biometrics, multimodal AI systems, foundation models, and industrial digital infrastructure, including prior industry roles at Shell, Schlumberger, and ARM.
@@ -132,7 +132,7 @@ export default function SilverBridgeAIHomepage() {
           <div className="border-l border-white/10 pl-6">
             <h4 className="text-white text-lg mb-2">Applied Execution Capability</h4>
             <p>
-              He has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments.
+              Leo has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments.
             </p>
           </div>
 
