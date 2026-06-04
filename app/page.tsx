@@ -46,6 +46,10 @@ export default function SilverBridgeAIHomepage() {
             >
               Business
             </a>
+            
+            <a href="/biometric-ai" className="hover:text-cyan-300 transition-colors">
+               Biometric AI Solutions
+            </a>
 
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
           </nav>
@@ -95,12 +99,17 @@ export default function SilverBridgeAIHomepage() {
       <section id="business" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
         <h3 className="text-4xl font-semibold mb-6">Business</h3>
         <p className="text-white/70 leading-relaxed max-w-3xl">
-          UK-based AI company operating internationally, delivering scientific intelligence and machine learning systems across both domestic and global markets.
+          UK-based applied AI business operating internationally, delivering advanced scientific intelligence and machine learning systems across research, industrial, and technology sectors in both domestic and global markets.
 
-          We support clients in the UK and internationally across research, industrial, and technology sectors, with applications spanning machine vision, biomedical systems, materials science, and advanced engineering.
+          The business was founded by Dr. Xiaopeng Wang, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence, deep technology commercialisation, and large-scale AI system deployment.
 
-          Our delivery model is remote-first and collaboration-driven, enabling cross-border technology development and IP transfer.
-        </p>
+          He previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, supported by strategic investment participation from Intel, IBM, and Lenovo. His professional experience spans biometrics, multimodal AI systems, foundation models, and industrial digital infrastructure, with prior roles at Shell, Schlumberger, and ARM.
+
+          He has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments. He is also recognised within the UK innovation ecosystem for contributions to applied AI and deep technology development.
+
+          The company operates a remote-first and collaboration-driven delivery model, enabling cross-border research collaboration, applied AI commercialisation, and scalable system deployment.
+
+    </p>
       </section>
 
       {/* Philosophy */}
