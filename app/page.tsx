@@ -97,19 +97,60 @@ export default function SilverBridgeAIHomepage() {
 
       {/* Business */}
       <section id="business" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
-        <h3 className="text-4xl font-semibold mb-6">Business</h3>
-        <p className="text-white/70 leading-relaxed max-w-3xl">
-          UK-based applied AI business operating internationally, delivering advanced scientific intelligence and machine learning systems across research, industrial, and technology sectors in both domestic and global markets.
 
-          The business was founded by Dr. Xiaopeng Wang, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence, deep technology commercialisation, and large-scale AI system deployment.
+        <h3 className="text-4xl font-semibold mb-12 text-white">
+          Business Overview
+        </h3>
 
-          He previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, supported by strategic investment participation from Intel, IBM, and Lenovo. His professional experience spans biometrics, multimodal AI systems, foundation models, and industrial digital infrastructure, with prior roles at Shell, Schlumberger, and ARM.
+        {/* L1 - What we do (Enterprise clarity) */}
+        <div className="mb-12">
+          <p className="text-lg text-white/80 leading-relaxed">
+            We are a UK-based applied AI business operating internationally, delivering advanced scientific intelligence and machine learning systems for research, industrial, and technology sectors.
+          </p>
+        </div>
 
-          He has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments. He is also recognised within the UK innovation ecosystem for contributions to applied AI and deep technology development.
+        {/* L2 - Credibility (ILR / Home Office safe layer) */}
+        <div className="space-y-10 text-white/70 leading-relaxed border-t border-white/10 pt-10">
 
-          The company operates a remote-first and collaboration-driven delivery model, enabling cross-border research collaboration, applied AI commercialisation, and scalable system deployment.
+          <div className="border-l border-cyan-400/40 pl-6">
+            <h4 className="text-white text-lg mb-2">Founding & Leadership</h4>
+            <p>
+              The business is operated in the United Kingdom by Dr. Xiaopeng Wang as a sole trader, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence and deep technology systems.
+            </p>
+          </div>
 
-    </p>
+          <div className="border-l border-white/10 pl-6">
+            <h4 className="text-white text-lg mb-2">Technical Track Record</h4>
+            <p>
+              He previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, with strategic investment participation from Intel, IBM, and Lenovo.
+            </p>
+            <p className="mt-3">
+              His experience spans biometrics, multimodal AI systems, foundation models, and industrial digital infrastructure, including prior industry roles at Shell, Schlumberger, and ARM.
+            </p>
+          </div>
+
+          <div className="border-l border-white/10 pl-6">
+            <h4 className="text-white text-lg mb-2">Applied Execution Capability</h4>
+            <p>
+              He has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments.
+            </p>
+          </div>
+
+        </div>
+
+        {/* L3 - Investor / scaling logic */}
+        <div className="mt-14 border-t border-white/10 pt-10">
+
+          <h4 className="text-white text-xl mb-4">
+            Operating Model & Scaling Strategy
+          </h4>
+
+          <p className="text-white/70 leading-relaxed">
+            The business operates a remote-first and collaboration-driven delivery model, enabling cross-border research collaboration, applied AI commercialisation, and scalable system deployment across multiple sectors.
+          </p>
+
+        </div>
+
       </section>
 
       {/* Philosophy */}
