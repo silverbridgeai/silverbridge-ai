@@ -290,8 +290,8 @@ export default function SilverBridgeAIHomepage() {
               <p className="text-white/70 leading-relaxed mb-5">
                 Dr. Xiaopeng Wang, Founder of Silver Bridge AI, has been
                 invited to deliver a keynote speech at CONF-SPML 2027,
-                the International Conference on Signal Processing and
-                Machine Learning.
+                the 7th International Conference on Signal Processing and
+                Machine Learning 2027.
               </p>
 
               <p className="text-white/60 leading-relaxed mb-7">
@@ -301,7 +301,7 @@ export default function SilverBridgeAIHomepage() {
               </p>
 
               <a
-                href="https://www.confspml.org/speakers.html"
+                href="https://www.confspml.org/index.html/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
