@@ -347,7 +347,7 @@ export default function SilverBridgeAIHomepage() {
               </p>
 
               <p className="text-white/60 leading-relaxed mb-5">
-               At CES and the Intel Developer Forum (IDF) in both the
+                At CES and the Intel Developer Forum (IDF) in both the
                 United States and China, Dr. Wang delivered keynote
                 presentations and led the public launch of what was
                 presented as the world's first multimodal AI-powered
@@ -372,6 +372,96 @@ export default function SilverBridgeAIHomepage() {
                 className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
               >
                 Watch the Innovation Video →
+              </a>
+
+            </div>
+          </div>
+        </article>
+
+        {/* LSE Invited Lecture - 2018 */}
+        <article className="mb-12 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] hover:border-cyan-400/40 transition">
+
+          <div className="grid md:grid-cols-[1.05fr_0.95fr] gap-0">
+
+            {/* LSE Photo Gallery */}
+            <div className="p-4 md:p-5">
+              <div className="grid grid-cols-2 gap-3">
+
+                {/* Main Photograph */}
+                <div className="col-span-2 relative overflow-hidden rounded-xl aspect-[16/10]">
+                  <Image
+                    src="/images/LSE_2018_EMBA_1.jpg"
+                    alt="Dr. Xiaopeng Wang's invited lecture for the LSE Global Executive Masters in Management programme in Beijing, 2018"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 45vw"
+                    className="object-cover object-center"
+                  />
+                </div>
+
+                {/* Supporting Photographs */}
+                {[
+                  "LSE_2018_EMBA_2.jpg",
+                  "LSE_2018_EMBA_3.jpg",
+                  "LSE_2018_EMBA_4.jpg",
+                  "LSE_2018_EMBA_5.jpg",
+                ].map((photo, index) => (
+                  <div
+                    key={photo}
+                    className="relative overflow-hidden rounded-lg aspect-[4/3]"
+                  >
+                    <Image
+                      src={`/images/${photo}`}
+                      alt={`Photograph ${index + 2} from the LSE Global Executive Masters in Management event in Beijing, 2018`}
+                      fill
+                      sizes="(max-width: 768px) 50vw, 22vw"
+                      className="object-cover object-center hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                ))}
+
+              </div>
+            </div>
+
+            {/* LSE News Content */}
+            <div className="p-7 md:p-9 flex flex-col justify-center">
+
+              <p className="text-sm text-cyan-300 tracking-[0.18em] mb-5">
+                ACADEMIC ENGAGEMENT · LSE · NOVEMBER 2018
+              </p>
+
+              <h4 className="text-2xl md:text-3xl font-semibold leading-snug mb-5">
+                Dr. Xiaopeng Wang Delivers Invited Lecture at LSE on Technology Entrepreneurship
+              </h4>
+
+              <p className="text-white/70 leading-relaxed mb-5">
+                On 7 November 2018, Dr. Xiaopeng Wang was invited to deliver
+                a lecture entitled "Tech Entrepreneurship in China – Iris
+                Recognition and Beyond" to students of the London School of
+                Economics and Political Science (LSE) Global Executive Masters
+                in Management programme in Beijing, China.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-5">
+                Drawing on his experience in iris recognition, artificial
+                intelligence and technology commercialisation, Dr. Wang
+                shared insights into China's technology entrepreneurship
+                landscape and the journey from pioneering innovation to
+                real-world commercial applications.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-7">
+                The event was hosted by Professor Saul Estrin.
+                Dr. Wang would like to thank Professor Estrin and LSE
+                for the invitation and hosting.
+              </p>
+
+              <a
+                href="http://www.lse.ac.uk/intranet/LSEServices/LSEinEastAsia/news/Tech-Entrepreneurship-in-China.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
+              >
+                Read the LSE Event Report →
               </a>
 
             </div>
