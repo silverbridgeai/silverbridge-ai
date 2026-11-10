@@ -8,8 +8,6 @@ export default function SilverBridgeAIHomepage() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(0,180,255,0.15),transparent_35%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:80px_80px]" />
 
-      {/* Navigation */}
-
       {/* Premium Navigation */}
       <header className="relative z-20 border-b border-white/[0.08] bg-black/70 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -93,7 +91,6 @@ export default function SilverBridgeAIHomepage() {
 
         </div>
       </header>
-
 
       {/* Hero */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-28">
@@ -307,6 +304,73 @@ export default function SilverBridgeAIHomepage() {
                 className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
               >
                 Conference Information →
+              </a>
+
+            </div>
+          </div>
+        </article>
+
+        {/* Innovation Milestone - Intel, CES & IDF */}
+        <article className="mb-12 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] hover:border-cyan-400/40 transition">
+
+          <div className="grid md:grid-cols-[1.05fr_0.95fr] gap-0">
+
+            {/* Embedded YouTube Video */}
+            <div className="relative bg-black flex items-center justify-center">
+              <div className="w-full aspect-video md:aspect-auto md:min-h-[420px]">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube-nocookie.com/embed/Da_A1yZBFTc"
+                  title="Multimodal AI Iris Mobile Payment Innovation at CES and Intel Developer Forum"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            {/* News Content */}
+            <div className="p-7 md:p-9 flex flex-col justify-center">
+
+              <p className="text-sm text-cyan-300 tracking-[0.18em] mb-5">
+                TECHNOLOGY INNOVATION · INTEL · CES & IDF
+              </p>
+
+              <h4 className="text-2xl md:text-3xl font-semibold leading-snug mb-5">
+                A World-First Innovation in Multimodal AI Iris Mobile Payments
+              </h4>
+
+              <p className="text-white/70 leading-relaxed mb-5">
+                Dr. Xiaopeng Wang was invited to the United States by Intel
+                CEO Brian Krzanich for high-level discussions on imaging
+                innovation and emerging applications of artificial intelligence.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-5">
+                At CES and the Intel Developer Forum (IDF) in the United
+                States, Dr. Wang led the development and public launch of
+                what was presented as the world's first multimodal AI-powered
+                iris mobile payment technology, alongside Intel CEO Brian
+                Krzanich and Intel Senior Vice President Kirk Skaugen.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-7">
+                Built on Dr. Wang's patented iris recognition technologies,
+                the innovation combined advanced biometric recognition
+                with AI-driven capabilities to enable a new approach to
+                secure mobile payment. It demonstrated his ability to lead
+                innovation from patented technology and engineering
+                development through to public demonstration and product
+                commercialisation.
+              </p>
+
+              <a
+                href="https://www.youtube.com/watch?v=Da_A1yZBFTc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
+              >
+                Watch the Innovation Video →
               </a>
 
             </div>
