@@ -9,70 +9,91 @@ export default function SilverBridgeAIHomepage() {
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:80px_80px]" />
 
       {/* Navigation */}
-      <header className="relative z-20 border-b border-white/10 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
-          {/* LEFT */}
-          <div className="flex items-center gap-3">
+      {/* Premium Navigation */}
+      <header className="relative z-20 border-b border-white/[0.08] bg-black/70 backdrop-blur-xl">
+        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+
+          {/* Brand */}
+          <a href="/" className="flex items-center gap-3 shrink-0 group">
             <Image
               src="/Silverbridgelogo.png"
               alt="SilverBridge AI"
-              width={188}
-              height={188}
-              className="rounded-xl hover:scale-105 transition-transform drop-shadow-lg"
+              width={52}
+              height={52}
+              className="rounded-lg transition-transform duration-300 group-hover:scale-105"
             />
 
             <div>
-              <h1 className="text-2xl font-semibold tracking-wide">
+              <h1 className="text-xl font-semibold tracking-tight text-white">
                 SilverBridge AI
               </h1>
-
-              <p className="text-xs text-white/50 tracking-[0.25em] uppercase mt-1">
+              <p className="text-[9px] text-white/40 tracking-[0.22em] uppercase mt-1">
                 Frontier Scientific Intelligence
               </p>
             </div>
-          </div>
+          </a>
 
-          {/* NAV */}
-          <nav className="hidden md:flex gap-8 text-sm text-white/70">
-            <a href="#domains" className="hover:text-white transition-colors">
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-7 text-[13px] font-medium tracking-wide">
+
+            <a
+              href="#domains"
+              className="text-white/60 hover:text-white transition-colors duration-200"
+            >
               Domains
             </a>
 
-            <a href="#capabilities" className="hover:text-white transition-colors">
-              Capabilities
-            </a>
-
-            <a href="#philosophy" className="hover:text-white transition-colors">
+            <a
+              href="#philosophy"
+              className="text-white/60 hover:text-white transition-colors duration-200"
+            >
               Philosophy
             </a>
 
-            <a href="#insights" className="hover:text-cyan-300 transition-colors">
-              News & Insights
-            </a>
-
-            {/* Business */}
             <a
               href="#business"
-              className="hover:text-cyan-300 text-white/70 transition-colors font-medium"
+              className="text-white/60 hover:text-white transition-colors duration-200"
             >
               Business
             </a>
 
             <a
-              href="/biometric-ai"
-              className="hover:text-cyan-300 transition-colors"
+              href="#insights"
+              className="text-white/60 hover:text-white transition-colors duration-200"
             >
-              Biometric AI Solutions
+              News & Insights
             </a>
 
-            <a href="#contact" className="hover:text-white transition-colors">
+            {/* Featured Business Link */}
+            <a
+              href="/biometric-ai"
+              className="px-4 py-2.5 rounded-full border border-cyan-400/30 bg-cyan-400/[0.06] text-cyan-300 hover:bg-cyan-400/15 hover:border-cyan-300/60 transition-all duration-300"
+            >
+              Biometric AI
+              <span className="ml-2 text-xs">↗</span>
+            </a>
+
+            <a
+              href="#contact"
+              className="text-white/60 hover:text-white transition-colors duration-200"
+            >
               Contact
             </a>
+
           </nav>
+
+          {/* Mobile Navigation Shortcut */}
+          <a
+            href="#contact"
+            className="lg:hidden text-sm text-cyan-300 border border-cyan-400/30 rounded-full px-4 py-2 hover:bg-cyan-400/10 transition"
+          >
+            Contact
+          </a>
 
         </div>
       </header>
+
 
       {/* Hero */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-28">
