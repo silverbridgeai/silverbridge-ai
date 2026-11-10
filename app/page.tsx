@@ -456,13 +456,85 @@ export default function SilverBridgeAIHomepage() {
               </p>
 
               <a
-                href="http://www.lse.ac.uk/intranet/LSEServices/LSEinEastAsia/news/Tech-Entrepreneurship-in-China.aspx"
+                href="https://www.lse.ac.uk/lse-in-east-asia/news-and-events/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
               >
                 Read the LSE Event Report →
               </a>
+
+            </div>
+          </div>
+        </article>
+
+        {/* LSE Invited Lecture - 2019 */}
+        <article className="mb-12 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] hover:border-cyan-400/40 transition">
+
+          <div className="grid md:grid-cols-[1.05fr_0.95fr] gap-0">
+
+            {/* LSE 2019 Photo Gallery */}
+            <div className="p-4 md:p-5">
+              <div className="grid grid-cols-2 gap-3">
+
+                {/* Main Photograph */}
+                <div className="col-span-2 relative overflow-hidden rounded-xl aspect-[16/10]">
+                  <Image
+                    src="/images/LSE_2019_EMBA_1.jpg"
+                    alt="Dr. Xiaopeng Wang at the LSE Global Executive Masters in Management programme in 2019"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 45vw"
+                    className="object-cover object-center"
+                  />
+                </div>
+
+                {/* Supporting Photographs */}
+                {[
+                  "LSE_2019_EMBA_2.jpg",
+                  "LSE_2019_EMBA_3.jpg",
+                  "LSE_2019_EMBA_4.jpg",
+                  "LSE_2019_EMBA_5.jpg",
+                ].map((photo, index) => (
+                  <div
+                    key={photo}
+                    className="relative overflow-hidden rounded-lg aspect-[4/3]"
+                  >
+                    <Image
+                      src={`/images/${photo}`}
+                      alt={`Photograph ${index + 2} from the LSE Global Executive Masters in Management lecture in 2019`}
+                      fill
+                      sizes="(max-width: 768px) 50vw, 22vw"
+                      className="object-cover object-center hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                ))}
+
+              </div>
+            </div>
+
+            {/* LSE 2019 News Content */}
+            <div className="p-7 md:p-9 flex flex-col justify-center">
+
+              <p className="text-sm text-cyan-300 tracking-[0.18em] mb-5">
+                ACADEMIC ENGAGEMENT · LSE · NOVEMBER 2019
+              </p>
+
+              <h4 className="text-2xl md:text-3xl font-semibold leading-snug mb-5">
+                Dr. Xiaopeng Wang Returns to LSE as Invited Lecturer
+              </h4>
+
+              <p className="text-white/70 leading-relaxed mb-5">
+                In November 2019, Dr. Xiaopeng Wang was once again invited
+                to lecture for the LSE Global Executive Masters in Management
+                programme, following his previous engagement in 2018.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-7">
+                The session brought together accomplished professionals
+                from diverse industries and countries, creating a lively
+                exchange of ideas and perspectives on technology, innovation
+                and entrepreneurship.
+              </p>
 
             </div>
           </div>
