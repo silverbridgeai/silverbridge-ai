@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function SilverBridgeAIHomepage() {
@@ -34,24 +35,40 @@ export default function SilverBridgeAIHomepage() {
 
           {/* NAV */}
           <nav className="hidden md:flex gap-8 text-sm text-white/70">
-            <a href="#domains" className="hover:text-white transition-colors">Domains</a>
-            <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
-            <a href="#philosophy" className="hover:text-white transition-colors">Philosophy</a>
-            <a href="#insights" className="hover:text-white transition-colors">Insights</a>
+            <a href="#domains" className="hover:text-white transition-colors">
+              Domains
+            </a>
 
-            {/* NEW: Business */}
+            <a href="#capabilities" className="hover:text-white transition-colors">
+              Capabilities
+            </a>
+
+            <a href="#philosophy" className="hover:text-white transition-colors">
+              Philosophy
+            </a>
+
+            <a href="#insights" className="hover:text-cyan-300 transition-colors">
+              News & Insights
+            </a>
+
+            {/* Business */}
             <a
               href="#business"
               className="hover:text-cyan-300 text-white/70 transition-colors font-medium"
             >
               Business
             </a>
-            
-            <a href="/biometric-ai" className="hover:text-cyan-300 transition-colors">
-               Biometric AI Solutions
+
+            <a
+              href="/biometric-ai"
+              className="hover:text-cyan-300 transition-colors"
+            >
+              Biometric AI Solutions
             </a>
 
-            <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+            <a href="#contact" className="hover:text-white transition-colors">
+              Contact
+            </a>
           </nav>
 
         </div>
@@ -66,7 +83,9 @@ export default function SilverBridgeAIHomepage() {
 
           <h2 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight">
             Building Intelligence Across
-            <span className="block text-cyan-300">Science, Vision, and Industry</span>
+            <span className="block text-cyan-300">
+              Science, Vision, and Industry
+            </span>
           </h2>
 
           <p className="mt-10 text-lg md:text-xl text-white/70 leading-relaxed max-w-3xl">
@@ -78,16 +97,37 @@ export default function SilverBridgeAIHomepage() {
       </section>
 
       {/* Domains */}
-      <section id="domains" className="relative z-10 max-w-7xl mx-auto px-6 py-24">
-        <h3 className="text-4xl font-semibold mb-12">Core Domains</h3>
+      <section
+        id="domains"
+        className="relative z-10 max-w-7xl mx-auto px-6 py-24"
+      >
+        <h3 className="text-4xl font-semibold mb-12">
+          Core Domains
+        </h3>
+
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {[
-            ["Machine Vision Intelligence","Industrial inspection, sensing, autonomous perception systems."],
-            ["AI for Scientific Discovery","Cross-domain learning for materials, biotech, chemistry."],
-            ["Autonomous Decision Systems","Edge AI systems for real-world adaptive environments."],
-            ["IP & Technology Licensing","Transferable AI architectures and commercial know-how."],
-          ].map(([t,d])=> (
-            <div key={t} className="p-6 rounded-2xl border border-white/10 bg-white/5">
+            [
+              "Machine Vision Intelligence",
+              "Industrial inspection, sensing, autonomous perception systems.",
+            ],
+            [
+              "AI for Scientific Discovery",
+              "Cross-domain learning for materials, biotech, chemistry.",
+            ],
+            [
+              "Autonomous Decision Systems",
+              "Edge AI systems for real-world adaptive environments.",
+            ],
+            [
+              "IP & Technology Licensing",
+              "Transferable AI architectures and commercial know-how.",
+            ],
+          ].map(([t, d]) => (
+            <div
+              key={t}
+              className="p-6 rounded-2xl border border-white/10 bg-white/5"
+            >
               <h4 className="text-xl mb-3">{t}</h4>
               <p className="text-white/60">{d}</p>
             </div>
@@ -96,79 +136,163 @@ export default function SilverBridgeAIHomepage() {
       </section>
 
       {/* Business */}
-      <section id="business" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
-
+      <section
+        id="business"
+        className="relative z-10 max-w-6xl mx-auto px-6 py-24"
+      >
         <h3 className="text-4xl font-semibold mb-12 text-white">
           Business Overview
         </h3>
 
-        {/* L1 - What we do (Enterprise clarity) */}
+        {/* L1 - What we do */}
         <div className="mb-12">
           <p className="text-lg text-white/80 leading-relaxed">
-            We are a UK-based applied AI business operating internationally, delivering advanced scientific intelligence and machine learning systems for research, industrial, and technology sectors.
+            We are a UK-based applied AI business operating internationally,
+            delivering advanced scientific intelligence and machine learning
+            systems for research, industrial, and technology sectors.
           </p>
         </div>
 
-        {/* L2 - Credibility (ILR / Home Office safe layer) */}
+        {/* L2 - Credibility */}
         <div className="space-y-10 text-white/70 leading-relaxed border-t border-white/10 pt-10">
 
           <div className="border-l border-cyan-400/40 pl-6">
-            <h4 className="text-white text-lg mb-2">Founding & Leadership</h4>
+            <h4 className="text-white text-lg mb-2">
+              Founding & Leadership
+            </h4>
             <p>
-              The business is operated in the Cambridge UK by Dr. Xiaopeng Wang (Leo)as a sole trader, an AI executive, inventor, and serial entrepreneur with over 20 years of experience in applied artificial intelligence and deep technology systems.
+              The business is based in Cambridge, UK, and operated by
+              Dr. Xiaopeng Wang (Leo) as a sole trader. He is an AI executive,
+              inventor, and serial entrepreneur with over 20 years of
+              experience in applied artificial intelligence and deep
+              technology systems.
             </p>
           </div>
 
           <div className="border-l border-white/10 pl-6">
-            <h4 className="text-white text-lg mb-2">Technical Track Record</h4>
+            <h4 className="text-white text-lg mb-2">
+              Technical Track Record
+            </h4>
             <p>
-              Leo previously founded and scaled an Intel-backed AI company to a valuation of approximately USD 150 million, with strategic investment participation from Intel, IBM, and Lenovo.
+              Leo previously founded and scaled an Intel-backed AI company
+              to a valuation of approximately USD 150 million, with strategic
+              investment participation from Intel, IBM, and Lenovo.
             </p>
+
             <p className="mt-3">
-              His experience spans biometrics, multimodal AI systems, foundation models, and industrial digital infrastructure, including prior industry roles at Shell, Schlumberger, and ARM.
+              His experience spans biometrics, multimodal AI systems,
+              foundation models, and industrial digital infrastructure,
+              including prior industry roles at Shell, Schlumberger, and ARM.
             </p>
           </div>
 
           <div className="border-l border-white/10 pl-6">
-            <h4 className="text-white text-lg mb-2">Applied Execution Capability</h4>
+            <h4 className="text-white text-lg mb-2">
+              Applied Execution Capability
+            </h4>
             <p>
-              Leo has a demonstrated track record of translating advanced AI research into production-grade, mission-critical systems deployed at scale across industrial and enterprise environments.
+              Leo has a demonstrated track record of translating advanced
+              AI research into production-grade, mission-critical systems
+              deployed at scale across industrial and enterprise environments.
             </p>
           </div>
 
         </div>
 
-        {/* L3 - Investor / scaling logic */}
+        {/* L3 - Operating Model */}
         <div className="mt-14 border-t border-white/10 pt-10">
-
           <h4 className="text-white text-xl mb-4">
             Operating Model & Scaling Strategy
           </h4>
 
           <p className="text-white/70 leading-relaxed">
-            The business operates a remote-first and collaboration-driven delivery model, enabling cross-border research collaboration, applied AI commercialisation, and scalable system deployment across multiple sectors.
+            The business operates a remote-first and collaboration-driven
+            delivery model, enabling cross-border research collaboration,
+            applied AI commercialisation, and scalable system deployment
+            across multiple sectors.
           </p>
-
         </div>
 
       </section>
 
       {/* Philosophy */}
-      <section id="philosophy" className="relative z-10 max-w-4xl mx-auto px-6 py-24 text-center">
+      <section
+        id="philosophy"
+        className="relative z-10 max-w-4xl mx-auto px-6 py-24 text-center"
+      >
         <h3 className="text-5xl font-semibold">
           Intelligence should extend scientific capability — not replace it.
         </h3>
       </section>
 
-      {/* Insights */}
-      <section id="insights" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
+      {/* News & Insights */}
+      <section
+        id="insights"
+        className="relative z-10 max-w-6xl mx-auto px-6 py-24"
+      >
         <div className="mb-10">
-          <h3 className="text-4xl font-semibold">Research Perspectives</h3>
+          <h3 className="text-4xl font-semibold">
+            News & Insights
+          </h3>
+
           <p className="text-white/60 mt-3">
-            Essays and reflections on frontier AI, scientific intelligence, and interdisciplinary innovation.
+            Silver Bridge Research & Professional Activities
           </p>
         </div>
 
+        {/* Featured News - CONF-SPML 2027 */}
+        <article className="mb-12 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] hover:border-cyan-400/40 transition">
+          <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-0">
+
+            {/* News Image */}
+            <div className="relative min-h-[280px] md:min-h-[390px]">
+              <Image
+                src="/images/leo-wang-conf-spml-2027.jpg"
+                alt="Dr Xiaopeng Wang, Founder of Silver Bridge AI"
+                fill
+                sizes="(max-width: 768px) 100vw, 45vw"
+                className="object-cover object-center"
+              />
+            </div>
+
+            {/* News Content */}
+            <div className="p-7 md:p-9 flex flex-col justify-center">
+
+              <p className="text-sm text-cyan-300 tracking-[0.18em] mb-5">
+                NEWS · NOVEMBER 2026
+              </p>
+
+              <h4 className="text-2xl md:text-3xl font-semibold leading-snug mb-5">
+                Silver Bridge Founder Invited as Keynote Speaker at CONF-SPML 2027
+              </h4>
+
+              <p className="text-white/70 leading-relaxed mb-5">
+                Dr. Xiaopeng Wang, Founder of Silver Bridge AI, has been
+                invited to deliver a keynote speech at CONF-SPML 2027,
+                the International Conference on Signal Processing and
+                Machine Learning.
+              </p>
+
+              <p className="text-white/60 leading-relaxed mb-7">
+                This invitation recognises his contributions to artificial
+                intelligence, signal processing, intelligent sensing, and
+                interdisciplinary technology innovation.
+              </p>
+
+              <a
+                href="https://www.confspml.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
+              >
+                Conference Information →
+              </a>
+
+            </div>
+          </div>
+        </article>
+
+        {/* Featured Research Perspective */}
         <a
           href="https://www.linkedin.com/pulse/ai-catalyst-cross-disciplinary-breakthroughs-reflections-s97ge/?trackingId=J%2Be9AafdSiOO3FswuQptLA%3D%3D"
           target="_blank"
@@ -184,30 +308,44 @@ export default function SilverBridgeAIHomepage() {
           </div>
 
           <p className="text-white/60 mb-6">
-            Exploring how artificial intelligence accelerates convergence across machine vision, biomedical systems, materials science, and industrial intelligence.
+            Exploring how artificial intelligence accelerates convergence
+            across machine vision, biomedical systems, materials science,
+            and industrial intelligence.
           </p>
 
           <div className="inline-flex items-center text-cyan-300 font-medium hover:text-white transition">
             Read Perspective →
           </div>
         </a>
+
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="relative z-10 border-t border-white/10 px-6 py-16">
+      <footer
+        id="contact"
+        className="relative z-10 border-t border-white/10 px-6 py-16"
+      >
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+
           <div>
-            <h4 className="text-2xl font-semibold">SilverBridge AI</h4>
+            <h4 className="text-2xl font-semibold">
+              SilverBridge AI
+            </h4>
+
             <p className="text-white/60 mt-3 max-w-md">
-              AI-driven interdisciplinary science and technology innovation platform.
+              AI-driven interdisciplinary science and technology innovation
+              platform.
             </p>
           </div>
+
           <div className="text-white/60">
             <p>Cambridge · UK</p>
             <p>info@silverbridgeai.co.uk</p>
           </div>
+
         </div>
       </footer>
+
     </div>
   );
 }
