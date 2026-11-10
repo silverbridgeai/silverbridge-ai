@@ -574,31 +574,90 @@ export default function SilverBridgeAIHomepage() {
 
       </section>
 
+  
       {/* Footer */}
       <footer
         id="contact"
-        className="relative z-10 border-t border-white/10 px-6 py-16"
+        className="relative z-10 border-t border-white/10"
       >
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+        {/* Contact Invitation */}
+        <div className="max-w-6xl mx-auto px-6 py-24 text-center">
 
-          <div>
-            <h4 className="text-2xl font-semibold">
-              SilverBridge AI
-            </h4>
+          <p className="text-sm text-cyan-300 tracking-[0.25em] uppercase mb-6">
+            Let's Connect
+          </p>
 
-            <p className="text-white/60 mt-3 max-w-md">
-              AI-driven interdisciplinary science and technology innovation
-              platform.
-            </p>
-          </div>
+          <h3 className="text-4xl md:text-5xl font-semibold leading-tight mb-5">
+            Have an idea worth exploring?
+            <span className="block text-cyan-300 mt-2">
+              Let's turn innovation into impact.
+            </span>
+          </h3>
 
-          <div className="text-white/60">
-            <p>Cambridge · UK</p>
-            <p>info@silverbridgeai.co.uk</p>
-          </div>
+          <p className="max-w-3xl mx-auto text-white/60 text-lg leading-relaxed mb-10">
+            We welcome conversations with businesses, research
+            institutions and technology partners exploring new
+            opportunities in AI, scientific innovation and deep technology.
+          </p>
+
+          <a
+            href="mailto:info@silverbridgeai.co.uk?subject=Enquiry%20-%20SilverBridge%20AI"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-full
+            bg-cyan-400 text-black font-semibold
+            hover:bg-cyan-300 hover:scale-[1.03]
+            transition-all duration-300 shadow-lg shadow-cyan-400/10"
+          >
+            Start a Conversation
+            <span className="text-lg">↗</span>
+          </a>
 
         </div>
+
+        {/* Business Information */}
+        <div className="border-t border-white/10 px-6 py-10">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row
+          justify-between items-start md:items-center gap-8">
+
+            <div>
+              <h4 className="text-2xl font-semibold text-white">
+                SilverBridge AI
+              </h4>
+
+              <p className="text-white/50 mt-2 text-sm">
+                AI-driven interdisciplinary science and technology innovation.
+              </p>
+
+              <p className="text-white/40 mt-3 text-xs leading-relaxed">
+                Technology Consultancy · IP Licensing · Technical Services · R&D Advisory
+              </p>
+            </div>
+
+            <div className="space-y-3 text-sm">
+              <p className="flex items-center gap-3 text-white/60">
+                <span className="text-cyan-300">⌖</span>
+                Cambridge · United Kingdom
+              </p>
+
+              <a
+                href="mailto:info@silverbridgeai.co.uk"
+                className="flex items-center gap-3 text-cyan-300
+                hover:text-white transition"
+              >
+                <span>✉</span>
+                info@silverbridgeai.co.uk
+              </a>
+            </div>
+
+          </div>
+
+          <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/[0.06]">
+            <p className="text-white/30 text-xs">
+              © {new Date().getFullYear()} SilverBridge AI. All rights reserved.
+            </p>
+          </div>
+        </div>
       </footer>
+
 
     </div>
   );
