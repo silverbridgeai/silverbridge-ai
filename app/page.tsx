@@ -162,14 +162,20 @@ export default function SilverBridgeAIHomepage() {
           Business Overview
         </h3>
 
-        {/* L1 - What we do */}
-        <div className="mb-12">
-          <p className="text-lg text-white/80 leading-relaxed">
-            We are a UK-based applied AI business operating internationally,
-            delivering advanced scientific intelligence and machine learning
-            systems for research, industrial, and technology sectors.
-          </p>
-        </div>
+   {/* L1 - What we do */}
+    <div className="mb-12">
+      <p className="text-lg text-white/80 leading-relaxed">
+        Silver Bridge AI is a Cambridge-based applied AI and deep technology
+        business operating internationally. Its professional activities span
+        technology consultancy, intellectual property (IP) licensing,
+        specialist technical services, and research and development (R&D)
+        advisory in digital technology and artificial intelligence.
+        The business focuses on translating advanced research and
+        intellectual property into practical, commercially relevant
+        technology solutions across industrial, scientific, and
+        biomedical sectors.
+      </p>
+    </div>
 
         {/* L2 - Credibility */}
         <div className="space-y-10 text-white/70 leading-relaxed border-t border-white/10 pt-10">
