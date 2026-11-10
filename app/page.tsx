@@ -301,7 +301,7 @@ export default function SilverBridgeAIHomepage() {
               </p>
 
               <a
-                href="https://www.confspml.org/speakers.html/"
+                href="https://www.confspml.org/speakers.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-300 font-medium hover:text-white transition"
