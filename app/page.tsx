@@ -247,7 +247,7 @@ export default function SilverBridgeAIHomepage() {
             {/* News Image */}
             <div className="relative min-h-[280px] md:min-h-[390px]">
               <Image
-                src="/images/leo-wang-conf-spml-2027.jpg"
+                src="/images/leo-wang-conf-spml-2027_2.jpg"
                 alt="Dr Xiaopeng Wang, Founder of Silver Bridge AI"
                 fill
                 sizes="(max-width: 768px) 100vw, 45vw"
