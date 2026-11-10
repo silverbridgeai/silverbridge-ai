@@ -347,11 +347,12 @@ export default function SilverBridgeAIHomepage() {
               </p>
 
               <p className="text-white/60 leading-relaxed mb-5">
-                At CES and the Intel Developer Forum (IDF) in the United
-                States, Dr. Wang led the development and public launch of
-                what was presented as the world's first multimodal AI-powered
-                iris mobile payment technology, alongside Intel CEO Brian
-                Krzanich and Intel Senior Vice President Kirk Skaugen.
+               At CES and the Intel Developer Forum (IDF) in both the
+                United States and China, Dr. Wang delivered keynote
+                presentations and led the public launch of what was
+                presented as the world's first multimodal AI-powered
+                iris mobile payment technology, alongside Intel CEO
+                Brian Krzanich and Intel Senior Vice President Kirk Skaugen.
               </p>
 
               <p className="text-white/60 leading-relaxed mb-7">
