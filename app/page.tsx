@@ -37,7 +37,7 @@ export default function SilverBridgeAIHomepage() {
             <a href="#domains" className="hover:text-white transition-colors">Domains</a>
             <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
             <a href="#philosophy" className="hover:text-white transition-colors">Philosophy</a>
-            <a href="#insights" className="hover:text-white transition-colors">Insights</a>
+            <a href="#insights" className="hover:text-white transition-colors">News & Insights</a>
 
             {/* NEW: Business */}
             <a
@@ -160,14 +160,18 @@ export default function SilverBridgeAIHomepage() {
         </h3>
       </section>
 
-      {/* Insights */}
-      <section id="insights" className="relative z-10 max-w-6xl mx-auto px-6 py-24">
-        <div className="mb-10">
-          <h3 className="text-4xl font-semibold">Research Perspectives</h3>
-          <p className="text-white/60 mt-3">
-            Essays and reflections on frontier AI, scientific intelligence, and interdisciplinary innovation.
-          </p>
-        </div>
+      {/* News & Insights */}
+        <section id="insights" className="relative z-10 max-w-6xl mx-auto px-6 py-24">        
+          <div className="mb-12">
+            <h3 className="text-4xl font-semibold">
+              News & Insights
+            </h3>
+        
+            <p className="text-white/60 mt-3">
+              Research developments, professional activities, and perspectives
+              from Silver Bridge AI.
+            </p>
+          </div>
 
         <a
           href="https://www.linkedin.com/pulse/ai-catalyst-cross-disciplinary-breakthroughs-reflections-s97ge/?trackingId=J%2Be9AafdSiOO3FswuQptLA%3D%3D"
